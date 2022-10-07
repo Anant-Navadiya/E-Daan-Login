@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_donated_form);
+        setContentView(R.layout.activity_acknowledgement_form);
 //        Button button = (Button) findViewById(R.id.click);
 //        button.setOnClickListener(new View.OnClickListener() {
 //            @Override

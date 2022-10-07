@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acknowledgment Form"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/firasanscondensed"
+            android:textColor="@color/black"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/donated_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/textfield"
+            android:fontFamily="@font/ubunturegular"
+            android:hint="Your Name"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#8E8B8B"
+            android:inputType="textCapSentences"/>
+
+        <EditText
+            android:id="@+id/donated_contact_no"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/textfield"
+            android:fontFamily="@font/ubunturegular"
+            android:hint="Your Contact No."
+            android:paddingStart="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#8E8B8B"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/donated_location"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/textfield"
+            android:fontFamily="@font/ubunturegular"
+            android:hint="Your Location"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#8E8B8B"
+            android:inputType="textCapSentences"/>
+
+        <Button
+            android:id="@+id/donated_Upload_image"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/image_button_background"
+            android:drawableStart="@drawable/ic_baseline_image_24"
+            android:paddingStart="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ubunturegular"
+            android:text="Upload Image"
+            ></Button>
+
+        <EditText
+            android:id="@+id/donated_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/textfield"
+            android:fontFamily="@font/ubunturegular"
+            android:hint="ID Proof"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#8E8B8B"
+            android:inputType="textCapSentences"/>
+
+
+
+
+
+        <Button
+            android:id="@+id/donated_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/ubunturegular"
+            android:text="Submit"
+            android:gravity="center"
+            ></Button>
+
+    </LinearLayout>
+</RelativeLayout>
