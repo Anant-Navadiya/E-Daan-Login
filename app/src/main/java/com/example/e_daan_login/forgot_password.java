@@ -44,7 +44,7 @@ public class forgot_password extends AppCompatActivity {
         if (email.isEmpty()) {
             email1.setError("Invalid");
         } else {
-            Toast.makeText(this, "Success", Toast.LENGTH_SHORT).show();
+           startActivity(new Intent(forgot_password.this,user_profile.class));
 
         }
     }
